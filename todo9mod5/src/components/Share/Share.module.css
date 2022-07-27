@@ -1,0 +1,67 @@
+.wrappbtn{
+  background: transparent;
+  border-color: transparent;
+
+}
+.share {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.share__text {
+  gap: 5px;
+  color: #888888;
+  text-align: center;
+}
+
+.share__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #888888;
+  padding: 0 10px;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.field input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #707070;
+}
+
+.label {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .share__form {
+      width: 80%;
+      flex-direction: row;
+      gap: 15px;
+  }
+
+  .field {
+      width: 80%;
+      align-items: flex-start;
+  }
+}
+@media (max-width: 420px) {
+  .inputCaixa{
+    width: 391px;
+    height: 30px;
+  }
+}

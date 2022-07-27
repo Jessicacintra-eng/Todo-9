@@ -1,0 +1,20 @@
+.button {
+  border: 1px solid #707070;
+  background-color: #fff;
+  color: #888888;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 40px;
+  cursor: pointer;
+  min-width: 30%;
+  transition: 1.2s;
+}
+.buttonSlide{
+  color: #888888;
+  font-weight: bold;
+}
+.buttonSlide:hover, .buttonSlide:focus{
+  border-color: #0c0c0c;
+  color:rgb(255, 255, 255);
+  box-shadow:inset 32em 0 0 0 #74a1a4;
+}

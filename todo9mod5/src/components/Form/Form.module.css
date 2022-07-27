@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 16px;
+  gap: 12px;
+  color: #888888;
+}
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.inputCaixa{
+  /* width: 340px; */
+  height: 30px;
+  border-radius: 6px;
+  border-color: #707070;
+  background-color: rgba(250, 235, 215, 0.251);
+}
+
+.input:nth-of-type(2n) {
+  margin-left: 5px;
+  
+}
+.wrappbtn{
+  background: transparent;
+  border-color: transparent;
+
+}
+
+/* @media (max-width: 420px) {
+  .inputCaixa{
+    width: 385px;
+    height: 30px;
+  }
+} */

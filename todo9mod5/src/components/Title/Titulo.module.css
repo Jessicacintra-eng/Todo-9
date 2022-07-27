@@ -1,0 +1,18 @@
+.titulo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo__span {
+  height: 1px;
+  background-color: #707070;
+}
+
+.titulo__main {
+  padding: 0 15px;
+  text-align: center;
+  color: #888888;
+}

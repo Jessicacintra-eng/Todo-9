@@ -1,0 +1,46 @@
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 15px;
+}
+
+.produto__img {
+  /* width: 40%; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #707070;
+}
+
+.produto__descricao {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #888888;
+  gap: 8px;
+}
+
+.h4 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.h5, .tituloProduto {
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .product {
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .produto__descricao {
+      width: 100%;
+  }
+}
